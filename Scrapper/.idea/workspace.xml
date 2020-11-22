@@ -25,6 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonBasic" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -59,5 +60,27 @@
       <updated>1605964764617</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="54" key="FileChooserDialogImpl" timestamp="1605970928403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="458" y="54" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605970928403" />
+    <state width="1304" height="173" key="GridCell.Tab.0.bottom" timestamp="1605970751477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605970751477" />
+    <state width="1304" height="173" key="GridCell.Tab.0.center" timestamp="1605970751477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605970751477" />
+    <state width="1304" height="173" key="GridCell.Tab.0.left" timestamp="1605970751476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605970751476" />
+    <state width="1304" height="173" key="GridCell.Tab.0.right" timestamp="1605970751477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1304" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605970751477" />
   </component>
 </project>
