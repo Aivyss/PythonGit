@@ -1,4 +1,5 @@
-from indeed import extract_last_page, extrtact_indeed_jobs
+from indeed import get_jobs as iget_jobs
+from stackoverflow import extract_last_page
 
-last_indeed_page = extract_last_page()
-indeed_jobs = extrtact_indeed_jobs(last_indeed_page)
+extract_last_page()
+#ijobs = iget_jobs()
