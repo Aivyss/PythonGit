@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 LIMIT = 50
-URL = f"https://kr.indeed.com/jobs?q=Python&limit=50&radius=25"
+URL = f"https://kr.indeed.com/jobs?q=Python&limit={LIMIT}&radius=25"
 
 def extract_last_page():
     # indeed_result = requests.get("https://kr.indeed.com/jobs?q=Python&limit=50&radius=25&start=850")
