@@ -59,7 +59,8 @@ class ToyUI(object):
                 vo = Drone(product_num, name, price, wings)
             elif selector == 3:
                 portable = True
-                vo = Drone(product_num, name, price, portable)
+                portable = int(input("휴대성(1. 휴대가능, 2. 휴대불가): "))
+                vo = GameConsole(product_num, name, price, portable)
 
         if vo == None:
             print("[에러] 잘못 입력하셨습니다.")

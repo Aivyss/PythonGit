@@ -49,6 +49,7 @@ class Bycicle(Toy):
         elif type == 2:
             self.__type = '산악용'
 
+    # 메소드 오버라이드
     def show(self):
         dictionary = super().show()
         dictionary["타입: "] = self.type
@@ -75,6 +76,13 @@ class Drone(Toy):
         super().__init__(product_num, name, price)
         self.__wings = wings
 
+    # 메소드 오버라이드
+    def show(self):
+        dictionary = super().show()
+        dictionary["날개수: "] = self.wings
+
+        return dictionary
+
     @property
     def wings(self):
         return self.__wings
@@ -90,7 +98,20 @@ class GameConsole(Toy):
 
     def __init__(self, product_num, name, price, portable):
         super().__init__(product_num, name, price)
-        self.__portable = portable
+
+        if portable == 1 :
+            self.__portable = "Yes"
+        else :
+            self.__portable = "No"
+
+
+
+    #메소드 오버라이드
+    def show(self):
+        dictionary = super().show()
+        dictionary["휴대용: "] = self.portable
+
+        return dictionary
 
     @property
     def portable(self):
@@ -98,5 +119,8 @@ class GameConsole(Toy):
 
     @portable.setter
     def portable(self, portable):
-        self.__portable = portable
+        if portable == 1:
+            self.portable = "Yes"
+        elif portable == 2:
+            self.portable = "No"
 
