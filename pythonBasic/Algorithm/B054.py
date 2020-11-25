@@ -31,12 +31,9 @@ while True:
         break
 
 result = ""
-while True:
+while index >= 0:
     result += chr(int(sum / 5**index)+65)
     sum = sum % 5**index
     index -= 1
-
-    if index < 0:
-        break
 
 print(result)
