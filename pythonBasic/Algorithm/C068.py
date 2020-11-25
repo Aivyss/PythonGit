@@ -7,7 +7,7 @@ text = str(input())
 index = 0
 result = ''
 for one in text:
-    if (index+1) % 2 == 0:
+    if (index + 1) % 2 == 0:
         if ord(one) + move <= 90:
             one = chr(ord(one) + move)
         else:
@@ -17,7 +17,6 @@ for one in text:
             one = chr(ord(one) - move)
         else:
             one = chr(ord(one) - move + 26)
-
 
     result = result + one
     index = index + 1
