@@ -34,23 +34,20 @@ def empty_2d_list(type, row_size, col_size):
         매개변수: 타입(문자열기재), 행의 크기, 열의 크기
     """
     result = []
+    unit = 0
 
     if type == "int":
-        for j in range(0, row_size):
-            container = []
-
-            for i in range(0, col_size):
-                container.append(0)
-
-            result.append(container)
+        unit = 0
     elif type == "str":
-        for j in range(0, row_size):
-            container = []
+        unit = ''
 
-            for i in range(0, col_size):
-                container.append("")
+    for j in range(0, row_size):
+        container = []
 
-            result.append(container)
+        for i in range(0, col_size):
+            container.append(unit)
+
+        result.append(container)
 
     return result
 
