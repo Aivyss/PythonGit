@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aivyssUtils" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2631579" />
   </component>
   <component name="RecentsManager">
@@ -35,7 +35,49 @@
       <recent name="C:\Users\hklei\PycharmProjects\PythonGit\pythonBasic\Toys" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Bak3008">
+  <component name="RunManager" selected="Python.B019">
+    <configuration name="B019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/B019.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="B054" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonBasic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/B054.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="B085" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonBasic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,55 +141,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonBasic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Toys" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Toys/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Problem1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonBasic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\hklei\PycharmProjects\PythonGit\pythonBasic\Algorithm\Problem1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.B019" />
+        <item itemvalue="Python.B054" />
         <item itemvalue="Python.Bak3008" />
         <item itemvalue="Python.B085" />
         <item itemvalue="Python.C068" />
-        <item itemvalue="Python.Problem1" />
-        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,42 +175,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="60" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606315808979" />
-    <state width="1341" height="111" key="GridCell.Tab.0.bottom" timestamp="1606237820456">
+    <state width="1341" height="217" key="GridCell.Tab.0.bottom" timestamp="1606417936799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606237820456" />
-    <state width="1341" height="111" key="GridCell.Tab.0.center" timestamp="1606237820455">
+    <state width="1341" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606417936799" />
+    <state width="1341" height="217" key="GridCell.Tab.0.center" timestamp="1606417936799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606237820455" />
-    <state width="1341" height="111" key="GridCell.Tab.0.left" timestamp="1606237820455">
+    <state width="1341" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606417936799" />
+    <state width="1341" height="217" key="GridCell.Tab.0.left" timestamp="1606417936798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606237820455" />
-    <state width="1341" height="111" key="GridCell.Tab.0.right" timestamp="1606237820456">
+    <state width="1341" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606417936798" />
+    <state width="1341" height="217" key="GridCell.Tab.0.right" timestamp="1606417936799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606237820456" />
-    <state width="1341" height="111" key="GridCell.Tab.1.bottom" timestamp="1606237820457">
+    <state width="1341" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606417936799" />
+    <state width="1341" height="268" key="GridCell.Tab.1.bottom" timestamp="1606416941071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606237820457" />
-    <state width="1341" height="111" key="GridCell.Tab.1.center" timestamp="1606237820457">
+    <state width="1341" height="268" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606416941071" />
+    <state width="1341" height="268" key="GridCell.Tab.1.center" timestamp="1606416941070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606237820457" />
-    <state width="1341" height="111" key="GridCell.Tab.1.left" timestamp="1606237820456">
+    <state width="1341" height="268" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606416941070" />
+    <state width="1341" height="268" key="GridCell.Tab.1.left" timestamp="1606416941070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606237820456" />
-    <state width="1341" height="111" key="GridCell.Tab.1.right" timestamp="1606237820457">
+    <state width="1341" height="268" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606416941070" />
+    <state width="1341" height="268" key="GridCell.Tab.1.right" timestamp="1606416941071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1341" height="111" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606237820457" />
-    <state x="89" y="0" key="SettingsEditor" timestamp="1606154100696">
+    <state width="1341" height="268" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606416941071" />
+    <state x="89" y="0" key="SettingsEditor" timestamp="1606411684525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="89" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606154100696" />
+    <state x="89" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606411684525" />
     <state x="432" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606008471587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
